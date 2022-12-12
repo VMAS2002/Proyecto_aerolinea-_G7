@@ -1,5 +1,6 @@
 package Aerolinea.ClienteService;
 
+import Aerolinea.Domain.Paises;
 import java.util.List;
 
 public interface PaisesService {

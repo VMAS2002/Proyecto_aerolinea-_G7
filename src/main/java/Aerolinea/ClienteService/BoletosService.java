@@ -1,10 +1,12 @@
 
 package Aerolinea.ClienteService;
 
+import Aerolinea.Domain.Boletos;
 import java.util.List;
 
 
 public interface BoletosService {
+    
      public List<Boletos> getBoletoss(boolean activos);
 
     public Boletos getBoletos(Boletos boletos);
@@ -13,7 +15,7 @@ public interface BoletosService {
 
     public void delete(Boletos boletos);
     
-    public List<Boletos> getPorExistencias(int boletos);
+    public List<Boletos> getPorBoletos(int boletos);
     
 }
     
