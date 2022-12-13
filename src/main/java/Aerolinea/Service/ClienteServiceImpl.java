@@ -1,4 +1,4 @@
-package Aerolinea.ClienteService;
+package Aerolinea.Service;
 
 import Aerolinea.Dao.ClienteDao;
 import Aerolinea.Domain.Cliente;

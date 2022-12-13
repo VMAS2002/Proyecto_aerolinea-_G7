@@ -1,6 +1,6 @@
 package Aerolinea.IndexController;
 
-import Aerolinea.ClienteService.ClienteService;
+import Aerolinea.Service.ClienteService;
 import Aerolinea.Domain.Cliente;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

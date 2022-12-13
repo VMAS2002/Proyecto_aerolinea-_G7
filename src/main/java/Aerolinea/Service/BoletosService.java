@@ -1,5 +1,5 @@
 
-package Aerolinea.ClienteService;
+package Aerolinea.Service;
 
 import Aerolinea.Domain.Boletos;
 import java.util.List;

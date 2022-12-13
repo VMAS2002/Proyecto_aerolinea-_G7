@@ -1,4 +1,4 @@
-package Aerolinea.ClienteService;
+package Aerolinea.Service;
 
 import java.util.List;
 import Aerolinea.Domain.Cliente;
