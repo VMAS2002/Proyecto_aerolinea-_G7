@@ -23,6 +23,7 @@ public class Paises implements Serializable {
      private Long idPaises;//Hibeernate lo convierte en id_paises
     private String descripcion;
     private boolean activo;
+    private String paises;
 
     public Paises(String descripcion, boolean activo) {
         this.descripcion = descripcion;

@@ -26,7 +26,9 @@ public class Boletos implements Serializable {
     private String precio;
     private String destino;
     private boolean activo;
+    private String boletos;
 
+    
     public Boletos(Long idPaises, String descripcion, String detalle, String precio, String destino, boolean activo) {
         this.idPaises = idPaises;
         this.descripcion = descripcion;

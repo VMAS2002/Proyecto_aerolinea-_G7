@@ -29,7 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("boletos/clientes")
                 .hasRole("TRIPULANTE")
                 .antMatchers("boletos/paises")
-                .hasRole("VENDEDOR2")
+                .hasRole("TRIPULANTE")
                 .antMatchers("/")
                 .hasAnyRole("TRIPULANTE","USER")
                 .and()

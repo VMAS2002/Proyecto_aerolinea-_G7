@@ -16,6 +16,8 @@ public interface BoletosService {
     public void delete(Boletos boletos);
     
     public List<Boletos> getPorBoletos(int boletos);
+
+
     
 }
     
